@@ -13,6 +13,7 @@ import camera from './camera-svgrepo-com.svg'
 import video from './video-library-svgrepo-com.svg'
 import socmed from './share-svgrepo-com.svg'
 import youtube from './youtube-svgrepo-com.svg'
+import home from './home-svgrepo-com.svg'
 
 export {
     background,
@@ -28,5 +29,6 @@ export {
     camera,
     video,
     socmed,
-    youtube
+    youtube,
+    home
 }

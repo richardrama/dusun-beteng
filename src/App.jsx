@@ -5,11 +5,13 @@ import { Footer, Header, Home, Left, Right } from './components'
 function App() {
 
   return (
-    <div className='bg-background px-[150px] '>
+    <div className='bg-background lg:px-[150px] overflow-x-hidden '>
       <Home />
       <Header />
       <div className='flex my-[20px] justify-between'>
-        <Left />
+        <div className="md:w-[65%]">
+          <Left />
+        </div>
         <Right />
       </div>
       <Footer />

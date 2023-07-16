@@ -3,11 +3,11 @@ import { Footer, Header, Home, Right } from '../components'
 
 const Kontak = () => {
     return (
-        <div className='bg-background px-[150px] '>
+        <div className='bg-background md:px-[150px] '>
             <Home />
             <Header />
             <div className='flex my-[20px] justify-between'>
-                <div className='w-[65%]'>
+                <div className='md:w-[65%] px-[10px] md:px-[0px]'>
                     <h1 className='text-[20px] font-[700] mb-[15px] text-darkBlue'>Informasi Kontak Dukuh</h1>
                 </div>
                 <Right />

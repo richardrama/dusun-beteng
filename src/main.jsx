@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import './index.css'
 import { Pemerintahan, Galeri, Kontak, Berita } from './pages';
+import { Artikel1, Profilpadukuhan } from './artikel/index.js';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,14 @@ const router = createBrowserRouter([
   {
     path: "/kontak-warga",
     element: <Kontak />,
+  },
+  {
+    path: "/profil-padukuhan",
+    element: <Profilpadukuhan />,
+  },
+  {
+    path: "/peranakan-kambing-ettawa",
+    element: <Artikel1 />,
   },
 ]);
 

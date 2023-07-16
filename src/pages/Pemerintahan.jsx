@@ -4,11 +4,11 @@ import { struktur } from '../assets'
 
 const Pemerintahan = () => {
     return (
-        <div className='bg-background px-[150px] '>
+        <div className='bg-background md:px-[150px] '>
             <Home />
             <Header />
             <div className='flex my-[20px] justify-between'>
-                <div className='w-[65%]'>
+                <div className='md:w-[65%] mx-[10px] md:mx-[0] h-[80vh]'>
                     <h1 className='text-[20px] font-[700] mb-[15px] text-darkBlue'>Struktur Pemerintahan</h1>
                     <div className="">
                         <img src={struktur} alt="" />
