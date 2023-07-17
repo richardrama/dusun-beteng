@@ -12,11 +12,11 @@ const header = () => {
                     <li className='cursor-pointer grid place-items-center border-b-[1px] border-background md:border-none md:flex hover:text-darkBlue hover:bg-blue py-[12px] px-[30px] '><Link to={`/struktur-pemerintahan`}>Struktur Pemerintahan</Link></li>
                     <li className='cursor-pointer grid place-items-center border-b-[1px] border-background md:border-none md:flex hover:text-darkBlue hover:bg-blue py-[12px] px-[30px] '><Link to={`/artikel-berita`}>Artikel Berita</Link></li>
                     <li className='cursor-pointer grid place-items-center border-b-[1px] border-background md:border-none md:flex hover:text-darkBlue hover:bg-blue py-[12px] px-[30px] '><Link to={`/galeri-kegiatan`}>Galeri Kegiatan</Link></li>
-                    <li className='dropDown grid place-items-center border-b-[1px] border-background md:border-none md:flex relative cursor-pointer hover:text-darkBlue hover:bg-blue py-[12px] px-[30px] '>
+                    <li className='dropDown grid place-items-center border-b-[1px] border-background md:border-none md:flex relative hover:text-darkBlue hover:bg-blue py-[12px] px-[30px] '>
                         Informasi
                         <div className="dropMenu">
                             <div className="absolute w-[100%] top-[100%] left-0 z-[100]">
-                                <p className='bg-darkBlue text-[white] hover:text-darkBlue hover:bg-blue py-[12px] px-[30px] w-[150%]'>Kontak</p>
+                                <Link to={`/kontak-padukuhan`}><p className='bg-darkBlue text-[white] hover:text-darkBlue hover:bg-blue py-[12px] px-[30px] w-[150%]'>Kontak</p></Link>
                                 <p className='bg-darkBlue text-[white] hover:text-darkBlue hover:bg-blue py-[12px] px-[30px] w-[150%]'>Peta Kemiringan</p>
                             </div>
                         </div>

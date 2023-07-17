@@ -90,7 +90,7 @@ const Galeri = () => {
                                 <img src={Tpa6} alt="" />
                             </div>
                         </div>
-                        <div className="text-[12px] md:text-[16px] text-[white] w-[100%] bg-darkBlue shadow-lg rounded-[10px] py-[5px] grid place-items-center mt-[30px]">
+                        <div className="mx-[10px] md:mx-[0px] text-[12px] md:text-[16px] text-[white] w-[100%] bg-darkBlue shadow-lg rounded-[10px] py-[5px] grid place-items-center mt-[30px]">
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEa1uixjGrFRvd9tKLK5eyKiLICokOUEObUaERjfwa5dX_Yg/viewform?usp=sf_link" target='_blank'>
                                 + Tambahkan Gambar ke Galeri
                             </a>

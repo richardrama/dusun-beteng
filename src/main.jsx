@@ -27,7 +27,7 @@ const router = createBrowserRouter([
     element: <Galeri />,
   },
   {
-    path: "/kontak-warga",
+    path: "/kontak-padukuhan",
     element: <Kontak />,
   },
   {
