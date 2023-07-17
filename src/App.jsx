@@ -5,7 +5,7 @@ import { Footer, Header, Home, Left, Right } from './components'
 function App() {
 
   return (
-    <div className='bg-background lg:px-[150px] overflow-x-hidden '>
+    <div className='bg-background lg:px-[150px] '>
       <Home />
       <Header />
       <div className='flex my-[20px] justify-between'>
