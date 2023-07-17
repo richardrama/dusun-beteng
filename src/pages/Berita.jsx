@@ -10,6 +10,11 @@ const Berita = () => {
                 <div className="md:w-[65%]">
                     <h1 className='hidden md:block text-[20px] font-[700] mb-[15px] text-darkBlue'>Artikel Terkini</h1>
                     <Left />
+                    <div className="text-[12px] md:text-[16px] text-[white] w-[100%] bg-darkBlue shadow-lg rounded-[10px] py-[5px] grid place-items-center mt-[30px]">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWT1MLDqPaG51xXDB10CxaQoxopL4BaZZ0ii4Sl-K2qbzPeA/viewform?usp=sf_link" target='_blank'>
+                            + Tambahkan Artikel
+                        </a>
+                    </div>
                 </div>
                 <Right />
             </div>

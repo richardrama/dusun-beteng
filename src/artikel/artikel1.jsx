@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Footer, Header, Home, Right } from '../components'
 import { ImgArtikel1 } from '../assets/artikel'
 
 const artikel1 = () => {
+    useEffect(() => {
+        document.title = "Kambing Peranakan Ettawa Sebagai Komoditas Unggulan"
+    }, [])
+
     return (
         <div className='bg-background md:px-[150px] '>
             <Home />
